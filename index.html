@@ -1,22 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Empresa ACME | INDEX</title>
+    <meta name="description" content="A Acme LTDA transforma desafios de negócio em soluções práticas e resultados consistentes.">
+    <title>Acme LTDA | Soluções que fazem sentido</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav class="nav">
-        <div class="logo">Logo</div>
+        <div class="logo">Acme LTDA</div>
         <ul class="menu">
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="sobre.html">sobre</a></li>
-            <li><a href="contato.html">contato</a></li>
+            <li><a href="index.html" aria-current="page">Início</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="contato.html">Contato</a></li>
         </ul>
     </nav>
-    <div class="container">
-        <!-- Aqui vai ficar o conteudo do site -->
-    </div>
+    <main>
+        <header class="home-hero">
+            <div class="home-hero-copy">
+                <p class="eyebrow">Estratégia para avançar</p>
+                <h1>Seu próximo resultado começa com uma boa direção.</h1>
+                <p class="hero-text">A Acme LTDA ajuda empresas a transformar desafios em soluções claras, eficientes e preparadas para crescer.</p>
+                <div class="hero-actions">
+                    <a class="cta-link" href="contato.html">Fale com a gente <span aria-hidden="true">&#8594;</span></a>
+                    <a class="text-link" href="sobre.html">Conheça a Acme</a>
+                </div>
+            </div>
+            <div class="character-feature" aria-label="Personagem em destaque: Yusuke Urameshi">
+                <span class="character-initials">YU</span>
+                <div>
+                    <p class="character-label">Personagem em destaque</p>
+                    <h2>Yusuke Urameshi</h2>
+                    <p>Detetive Sobrenatural e protagonista de Yu Yu Hakusho.</p>
+                </div>
+            </div>
+        </header>
+
+        <section class="home-section" aria-labelledby="como-podemos-ajudar">
+            <div class="section-heading home-heading">
+                <p class="eyebrow">Como podemos ajudar</p>
+                <h2 id="como-podemos-ajudar">Soluções pensadas para o que o seu negócio precisa agora.</h2>
+            </div>
+            <div class="services-grid">
+                <article class="service">
+                    <span class="service-number">01</span>
+                    <h3>Estratégia</h3>
+                    <p>Organizamos prioridades e construímos planos objetivos para transformar intenção em movimento.</p>
+                </article>
+                <article class="service service-featured">
+                    <span class="service-number">02</span>
+                    <h3>Projetos</h3>
+                    <p>Colocamos ideias em prática com método, proximidade e foco no impacto que realmente importa.</p>
+                </article>
+                <article class="service">
+                    <span class="service-number">03</span>
+                    <h3>Parcerias</h3>
+                    <p>Trabalhamos lado a lado com sua equipe para criar soluções sustentáveis e evoluir continuamente.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="home-bottom" aria-labelledby="conversa-inicial">
+            <div>
+                <p class="eyebrow">Uma relação de confiança</p>
+                <h2 id="conversa-inicial">Menos complicação. Mais clareza para fazer acontecer.</h2>
+            </div>
+            <a class="cta-link" href="sobre.html">Saiba mais sobre nós <span aria-hidden="true">&#8594;</span></a>
+        </section>
+    </main>
 </body>
 </html>
