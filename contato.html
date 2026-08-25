@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Entre em contato com a Acme LTDA e conte como podemos ajudar o seu negócio.">
+    <link rel="stylesheet" href="style.css">
+    <title>Entre em contato | Acme LTDA</title>
+</head>
+<body>
+    <nav class="nav">
+        <div class="logo">Acme LTDA</div>
+        <ul class="menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="contato.html" aria-current="page">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <header class="about-hero contact-hero">
+            <p class="eyebrow">Contato</p>
+            <h1>Vamos conversar sobre o que vem pela frente.</h1>
+            <p class="hero-text">Toda boa parceria começa com uma escuta atenta. Conte um pouco sobre o seu desafio e a equipe da Acme LTDA retorna com clareza sobre os próximos passos.</p>
+        </header>
+
+        <section class="about-section contact-section" aria-labelledby="fale-conosco">
+            <div class="contact-copy">
+                <p class="eyebrow">Fale com a gente</p>
+                <h2 id="fale-conosco">Uma conversa pode mudar o rumo de uma ideia.</h2>
+                <p>Se você busca uma solução, quer tirar um projeto do papel ou simplesmente entender como podemos contribuir, este é o lugar certo para começar.</p>
+                <p>Envie sua mensagem com o máximo de contexto que puder. Assim, preparamos uma conversa mais objetiva e conectada às necessidades do seu negócio.</p>
+
+                <dl class="contact-details">
+                    <div>
+                        <dt>E-mail</dt>
+                        <dd><a href="mailto:atendimento@acme.com.br">atendimento@acme.com.br</a></dd>
+                    </div>
+                    <div>
+                        <dt>Atendimento</dt>
+                        <dd>Segunda a sexta, das 9h às 18h</dd>
+                    </div>
+                </dl>
+            </div>
+
+            <form class="contact-form" action="#" method="post">
+                <div class="form-field">
+                    <label for="nome">Seu nome</label>
+                    <input id="nome" name="nome" type="text" autocomplete="name" required>
+                </div>
+                <div class="form-field">
+                    <label for="email">Seu e-mail</label>
+                    <input id="email" name="email" type="email" autocomplete="email" required>
+                </div>
+                <div class="form-field">
+                    <label for="empresa">Empresa <span>(opcional)</span></label>
+                    <input id="empresa" name="empresa" type="text" autocomplete="organization">
+                </div>
+                <div class="form-field">
+                    <label for="mensagem">Como podemos ajudar?</label>
+                    <textarea id="mensagem" name="mensagem" rows="6" required></textarea>
+                </div>
+                <button class="form-button" type="submit">Enviar mensagem <span aria-hidden="true">&#8594;</span></button>
+                <p class="form-note">Ao enviar, você dá o primeiro passo para uma conversa sem compromisso.</p>
+            </form>
+        </section>
+
+        <section class="about-cta" aria-labelledby="construir-juntos">
+            <p class="eyebrow">Prontos para ouvir</p>
+            <h2 id="construir-juntos">Seu próximo avanço começa com uma boa pergunta.</h2>
+            <p>Não importa em que ponto você está. Vamos entender o cenário e encontrar uma direção que faça sentido.</p>
+        </section>
+    </main>
+</body>
+</html>
